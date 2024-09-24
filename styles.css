@@ -1,6 +1,6 @@
 
 
-/* main css */
+
 
 body {
   background-color: black;
@@ -9,9 +9,10 @@ body {
 .container {
   background-color: white;
   margin: 0 auto;
-  width: 30%;
+  width: 80%;
   margin-top: 10%;
   border-radius: 10px;
+  
 }
 .firstclass {
   margin-left: 20px;
@@ -41,6 +42,13 @@ p {
 }
 
 @media (min-width: 375px) and (max-width: 500px) {
+  .container {
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 10%;
+    border-radius: 10px
+  }
   p {
     padding-block-start: 30px;
   }
